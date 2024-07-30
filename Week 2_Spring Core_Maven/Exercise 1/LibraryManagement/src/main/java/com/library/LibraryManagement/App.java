@@ -19,5 +19,7 @@ public class App
         ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         BookService bs = (BookService) context.getBean("bookService");
         bs.bookServiceShow();
+        BookRepository br = (BookRepository) context.getBean("bookRepository");
+        br.bookRepositoryShow();
     }
 }
