@@ -26,6 +26,14 @@
 	
 	-->
 	
+	<!-- Constructor Dependency Injection -->
+	<bean id="bookRepository"
+		class="com.library.repository.BookRepository" />
+	
+	<bean id="bookService" class="com.library.service.BookService">
+		<constructor-arg name="bookRepository" ref="bookRepository" />
+	</bean>
+	
 	<!-- Aspect Bean Definition -->
 	<bean id="loggingAspect" class="com.library.aspect.LoggingAspect" />
 
