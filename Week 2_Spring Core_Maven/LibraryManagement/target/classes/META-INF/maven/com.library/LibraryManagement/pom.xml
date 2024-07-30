@@ -38,6 +38,15 @@
 			<version>5.2.22.RELEASE</version>
 		</dependency>
 
+		<!--
+		https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>5.2.22.RELEASE</version>
+		</dependency>
+
+
 		<!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
 		<dependency>
 			<groupId>org.aspectj</groupId>
