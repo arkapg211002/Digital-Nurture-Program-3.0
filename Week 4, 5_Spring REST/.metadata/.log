@@ -1,0 +1,53 @@
+!SESSION 2024-08-01 08:42:32.112 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=17.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2024-08-01 08:43:00.964
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-08-01 08:43:00.964
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7804a783,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@54ec8ab3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-08-01 08:43:17.880
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\LENOVO'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2024-08-01 08:43:30.315
+!MESSAGE Setup tasks were performed during startup updating 40 preferences. See 'D:\Eclipse\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details
+
+!ENTRY org.eclipse.ui 2 2 2024-08-01 08:43:39.103
+!MESSAGE Invalid preference category path: org.springframework.tooling.boot.xml.ls.preferences (bundle: org.springframework.ide.eclipse.xml.namespaces, page: org.springframework.ide.eclipse.beans.ui.namespaces.preferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2024-08-01 08:43:39.103
+!MESSAGE Invalid preference category path: org.springsource.ide.eclipse.commons.preferencePage (bundle: org.springframework.ide.eclipse.boot, page: org.springframework.ide.eclipse.boot.ui.preferences.BootPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2024-08-01 08:43:39.104
+!MESSAGE Invalid preference category path: org.springsource.ide.eclipse.commons.preferencePage (bundle: org.springframework.ide.eclipse.boot, page: org.springframework.ide.eclipse.boot.ui.preferences.InitializrPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2024-08-01 08:43:39.104
+!MESSAGE Invalid preference category path: org.springframework.tooling.boot.validation (bundle: org.springframework.ide.eclipse.boot.validation, page: org.springframework.ide.eclipse.boot.validation.preferences.ConfigurationProcessingPreferencesPage)
+
+!ENTRY org.eclipse.ui 2 2 2024-08-01 08:43:39.105
+!MESSAGE Invalid preference category path: org.springsource.ide.eclipse.commons.preferencePage (bundle: org.springframework.ide.eclipse.boot.dash, page: org.springframework.ide.eclipse.boot.dash.prefs.BootDashPrefsPage)
